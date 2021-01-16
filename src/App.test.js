@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import App, { calcularNovoSaldo } from './app';
+import App, { calcularNovoSaldo } from './App';
 
 describe('Componente principal', () => {
     describe('Quando eu abro o app do banco', () => {
